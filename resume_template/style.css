@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+
+}
+div{
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px auto;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 3px 1px lightgray;
+    padding: 20px;
+    column-gap: 50px;
+    border: 2px solid gray;
+}
+/* left side */
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.profile div{
+    background: blue;
+    display: block;
+
+}
+.profile .img{
+overflow: hidden;
+border-radius: 50%;
+position: relative;
+height: 200px;
+width: 200px
+
+}
+.link a {
+    text-decoration: none;
+    
+    
+}
+.github,.linkdn{
+    color: white;
+    column-gap: 5px;
+    margin-left: 10px;
+
+}
+/* leftboot */
+.leftbottom{
+background-color: #3c4240;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left .contact,.skill,.certificate{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    text-decoration: none;
+}
+.line{
+    height: 2px;
+    background: white;
+}
+.ul{
+    padding-top: 10px;
+    list-style-type: none;
+    font-weight: 500;
+
+}
+.li{
+    color: gray;
+  padding-top: 5px;
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+.certificate1{
+    display: flex;
+    gap: 5px;
+}
+
+/* rightside */
+.right{
+    background: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.right  h1{
+    padding-top: 10px;
+    text-transform: capitalize;
+    color: rgb(69, 69, 230);
+}
+.line1{
+    height: 2px;
+    background: rgb(5, 4, 4);
+}
+.experince_list{
+    text-decoration: none;
+    list-style-type: none;
+}
+.role_date{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+}
+.role{
+    display: flex;
+}
+.project_list{
+    list-style: none;
+    gap: 10px;
+}
+h3{
+    padding-top: 5px;
+}
+.education_list{
+    list-style-type: none;
+}
+h4{
+    color: gray;
+}
+h1{
+    text-transform: uppercase;
+}
